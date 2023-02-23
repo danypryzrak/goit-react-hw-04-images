@@ -13,7 +13,7 @@ useEffect(() => {
     return () => {
     window.removeEventListener('keydown', handleKeyDown)
     }
-}, [])
+})
 
 function handleKeyDown(e) {
     if (e.code === 'Escape') {
